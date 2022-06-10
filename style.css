@@ -23,6 +23,19 @@ body{
     background-color: hsl(228, 33%, 97%);
 }
 
+.menu-expanded{
+    height: 100%;
+    width: 100%;
+
+    overflow: hidden;
+
+    background-color: var(--button-color);
+}
+
+body.menu-expanded> :not(nav) {
+    visibility: hidden;
+}
+
 /* Navigation ============================================================================ */
 
 nav{
@@ -63,6 +76,21 @@ nav ul li a{
     text-decoration: none;
 
     color: white;
+}
+
+nav button{
+    display: none;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+nav button svg path{
+    stroke: white;
 }
 
 /* Título ============================================================================ */
@@ -222,6 +250,13 @@ footer a{
 
     nav ul{
         display: none;
+    }
+
+    nav button{
+        display: block;
+        visibility: visible;
+        
+        opacity: 1;
     }
 
     /* Conteudo =================================== */
