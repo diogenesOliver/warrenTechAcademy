@@ -52,7 +52,6 @@ nav{
     width: 100%;
 
     background-color: var(--button-color);
-
 }
 
 nav a img{
@@ -133,7 +132,10 @@ h1{
     font-size: 32px;
 }
 
-.content button{
+.content a{
+    text-decoration: none;
+    text-align: center;
+
     border: none;
     border-radius: 8px;
 
@@ -146,16 +148,9 @@ h1{
     font-weight: bold;
     font-size: 16px;
 
-    margin-top: 10px;
+    padding-top: 15px;
 
     cursor: pointer;
-}
-
-.content button:hover{
-    border: 2px solid var(--button-color);
-    color: var(--button-color);
-
-    background: none;   
 }
 
 /* Banner ============================================================================ */
