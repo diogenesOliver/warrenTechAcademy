@@ -6,6 +6,19 @@
 
 <h2>This is the main page</h2>
 
-<br>
-
 <img style='border-radius: 5px' src='./assets/images/imagesFromReadme/warren-principal-page.png'/>
+
+
+<br><br>
+
+<div style='display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+  align-items: center'>
+
+<img src='./assets/images/logo.png' style='height: 35px'/>
+<h2>About Warren Tech Academy</h2>
+
+</div>
+
+<br>
