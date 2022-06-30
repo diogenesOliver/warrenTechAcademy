@@ -6,6 +6,8 @@
 
 <h2>This is the main page</h2>
 
+<br>
+
 <img style='border-radius: 5px' src='./assets/images/imagesFromReadme/warren-principal-page.png'/>
 
 
@@ -21,4 +23,8 @@
 
 </div>
 
-<br>
+<br><br>
+
+<h4>
+Warren Tech Academy is a developer training program that aims to create new talent for the programming world. This program was created by the company Warren Brasil, one of the largest investment brokers in Brazil
+</h4>
