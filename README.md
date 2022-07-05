@@ -16,15 +16,12 @@
 
 <br>
 
-<div style='display: flex;
- flex-direction: row;
- justify-content: space-around;
-  align-items: center'>
+<center>
 
 <img src='./assets/images/imagesFromReadme/responsive.png' style='height: 500px'/>
 <img src='./assets/images/imagesFromReadme/menu.png' style='height: 500px'/>
 
-</div>
+</center>
 
 <br><br>
 
