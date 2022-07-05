@@ -21,8 +21,8 @@
  justify-content: space-around;
   align-items: center'>
 
-<img src=''/>
-<img src=''/>
+<img src='./assets/images/imagesFromReadme/responsive.png' style='height: 500px'/>
+<img src='./assets/images/imagesFromReadme/menu.png' style='height: 500px'/>
 
 </div>
 
