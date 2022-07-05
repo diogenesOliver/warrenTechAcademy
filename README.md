@@ -21,9 +21,9 @@
  justify-content: space-around;
   align-items: center'>
 
-<img style='height: 500px' src='./assets/images/imagesFromReadme/new_responsive.png'/>
+<img style='height: 500px' src='./assets/images/imagesFromReadme/responsive.png'/>
 
-<img style='height: 500px' src='./assets/images/imagesFromReadme/new_menu-expanded.png'/>
+<img style='height: 500px' src='./assets/images/imagesFromReadme/menu.png'/>
 
 </div>
 
