@@ -18,8 +18,12 @@
 
 <center>
 
+<div>
+
 <img src='./assets/images/imagesFromReadme/responsive.png' style='height: 500px'/>
 <img src='./assets/images/imagesFromReadme/menu.png' style='height: 500px'/>
+
+</div>
 
 </center>
 
