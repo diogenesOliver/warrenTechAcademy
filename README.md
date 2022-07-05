@@ -20,8 +20,11 @@
 
 <center>
 
-<img src='./assets/images/imagesFromReadme/responsive.png' style='height: 500px'/>
-<img src='./assets/images/imagesFromReadme/menu.png' style='height: 500px'/>
+<img src='./assets/images/imagesFromReadme/responsive.png' style='height: 400px'/>
+
+<img src='./assets/images/imagesFromReadme/footer.png' style='height: 400px'/>
+
+<img src='./assets/images/imagesFromReadme/menu.png' style='height: 400px'/>
 
 </center>
 
