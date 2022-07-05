@@ -10,10 +10,9 @@
 
 <img style='border-radius: 5px' src='./assets/images/imagesFromReadme/warren-principal-page.png'/>
 
-
 <br><br>
 
-URL Project: <a> https://marvelous-boba-139de6.netlify.app </a>
+<h2>Responsive</h2>
 
 <br>
 
@@ -21,6 +20,20 @@ URL Project: <a> https://marvelous-boba-139de6.netlify.app </a>
  flex-direction: row;
  justify-content: space-around;
   align-items: center'>
+
+<img style='height: 500px' src='./assets/images/imagesFromReadme/new_responsive.png'/>
+
+<img style='height: 500px' src='./assets/images/imagesFromReadme/new_menu-expanded.png'/>
+
+</div>
+
+<br><br>
+
+URL Project: <a> https://marvelous-boba-139de6.netlify.app </a>
+
+<br>
+
+<div>
 
 <img src='./assets/images/logo.png' style='height: 35px'/>
 <h2>About Warren Tech Academy</h2>
