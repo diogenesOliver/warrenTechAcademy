@@ -1,4 +1,4 @@
-<h1>[PROJECT IN PROGRESS...]</h1>
+<h1> Warren Brasil </h1>
 
 <p>The objective of this project is to create a simple responsive landing page for the company Warren Brasil</p>
 
