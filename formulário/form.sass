@@ -1,0 +1,94 @@
+@use '../sass/components/colors'
+@use '../sass/components/font'
+
+*
+    margin: 0
+    padding: 0
+
+body
+    font-family: font.$font-default
+    color: colors.$text-color
+
+    background-color: hsl(228, 33%, 97%)
+
+/* Navigation */
+
+nav
+    display: flex
+    flex-direction: row
+    justify-content: space-around
+
+    align-items: center
+
+    height: 55px
+    width: 100%
+
+    background-color: colors.$button-color
+    color: white
+
+/* Wrapper */
+
+.wrapper
+    display: flex
+    flex-direction: column
+
+    gap: 1.1rem
+
+    width: 35%
+
+    margin-top: 5rem
+    margin-inline: auto
+
+/* Form */
+
+.form
+    display: flex
+    flex-direction: column
+
+    gap: 1.1rem
+
+.form input
+    height: 40px
+
+    border: 2px solid black
+    border-radius: 5px
+
+.align-items
+    display: flex
+    flex-direction: column
+
+    gap: .5rem
+
+/* Check */
+
+.check
+    display: flex
+    flex-direction: column
+
+    gap: .8rem
+
+/* Button */
+
+button
+    width: 20%
+    height: 40px
+
+    color: white
+
+    border: none
+    border-radius: 5px
+
+    cursor: pointer
+
+    background-color: colors.$button-color
+
+    transition: .3s
+
+button:hover
+    background-color: hsl(345, 66%, 38%)
+
+/* Responsividade */
+
+@media (max-width: 700px)
+    .wrapper
+        width: 95%
