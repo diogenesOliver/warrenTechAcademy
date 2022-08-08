@@ -1,4 +1,5 @@
 @use '../mixins/_mixins'
+@use '../variables/_colors'
 
 footer
     @include mixins.row-space-around()
@@ -13,7 +14,7 @@ footer
 
     margin-top: 10rem
 
-    background-color: #808080
+    background-color: colors.$footer-color
 
 footer a
     text-decoration: none
