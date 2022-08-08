@@ -1,5 +1,11 @@
-@use './components/colors'
-@use './components/font'
+@use './variables/colors'
+@use './variables/font'
+
+@forward './components/_menu-expanded'
+@forward './components/_navbar'
+@forward './components/_container'
+@forward './components/_banner'
+@forward './components/_footer'
 
 *
     margin: 0
@@ -14,222 +20,12 @@ body
 
     background-color: colors.$bg-body
 
-/* Mixin */
-
-@mixin column-menu-expanded()
-    display: flex
-    flex-direction: column
-    align-items: center
-
-/* Menu expanded */
-
-.close-menu
-    display: none
-
-.menu-expanded
-    height: 100%
-    width: 100%
-
-    overflow: hidden
-
-    background-color: colors.$button-color
-
-body.menu-expanded> :not(nav) 
-    visibility: hidden
-
-body.menu-expanded nav .close-menu,
-body.menu-expanded nav ul
-    display: block
-
-body.menu-expanded nav ul
-    @include column-menu-expanded()
-
-    gap: 5rem
-
-    position: absolute
-
-    margin-top: 80vh
-
-body.menu-expanded nav .open-menu
-    display: none
-
-/* Navigation ============================================================================ */
-
-@mixin row-space-around()
-    display: flex
-    flex-direction: row
-    justify-content: space-around
-
-nav
-    @include row-space-around()
-
-    position: sticky
-    top: 0
-
-    align-items: center
-
-    height: 55px
-    width: 100%
-
-    background-color: colors.$button-color
-
-nav a img
-    height: 30px
-
-    cursor: pointer
-
-nav ul
-    display: flex
-    flex-direction: row
-
-    gap: 3.4rem
-
-nav ul li
-    list-style: none
-
-nav ul li a
-    text-decoration: none
-
-    color: white
-
-nav button
-    display: none
-
-    background-color: transparent
-    border: none
-    cursor: pointer
-
-    opacity: 0
-    visibility: hidden
-
-nav button svg path
-    stroke: white
-
-/* Título ============================================================================ */
-
 h1
     text-align: center
     font-size: 48px
 
     margin-top: 80px
     margin-bottom: 90px
-
-/* Conteudo ============================================================================ */
-
-.container
-    @include row-space-around()
-    
-    justify-content: center
-
-    gap: 70px
-
-    margin-top: 80px
-
-.container img
-    width: 500px
-    height: 500px
-
-    border-radius: 8px
-
-.content
-    @include column-menu-expanded()
-    
-    align-items: flex-start
-
-    padding-inline: 15px
-
-    gap: 2.4rem
-
-.content h2
-    font-size: 32px
-
-.content a
-    text-decoration: none
-    text-align: center
-
-    border: none
-    border-radius: 8px
-
-    background-color: colors.$button-color
-    color: white
-
-    width: 190px
-    height: 40px
-
-    font-weight: bold
-    font-size: 16px
-
-    padding-top: 15px
-
-    cursor: pointer
-
-/* Banner ============================================================================ */
-
-.warren-investment
-    @include column-menu-expanded()
-
-    justify-content: center
-
-    gap: 2.4rem
-
-    height: 250px
-    width: 70%
-
-    margin-inline: auto
-    text-align: center
-
-    margin-top: 10rem
-
-    border-radius: 8px
-
-    color: white
-    background-color: colors.$button-color
-
-.warren-investment h2
-    font-size: 40px
-
-.warren-investment button
-    height: 50px
-    width: 200px
-
-    font-size: 15px
-    font-weight: bold
-
-    border: 2px solid colors.$text-color
-    border-radius: 5px
-
-    background-color: colors.$text-color
-
-    color: white
-
-    cursor: pointer
-
-.warren-investment button:hover
-    background-color: white
-    color: colors.$text-color
-
-/* Footer ============================================================================ */
-
-footer
-    @include row-space-around()
-
-    justify-content: center
-    align-items: center
-
-    gap: 4.4rem
-
-    width: 100%
-    height: 100px
-
-    margin-top: 10rem
-
-    background-color: #808080
-
-footer a
-    text-decoration: none
-
-.alt-img
-    height: 35px
 
 /* Responsividade ============================================================================ */
 
