@@ -1,0 +1,45 @@
+@use '../variables/_colors'
+@use '../mixins/_mixins'
+
+.warren-investment
+    @include mixins.column-menu-expanded()
+
+    justify-content: center
+
+    gap: 2.4rem
+
+    height: 250px
+    width: 70%
+
+    margin-inline: auto
+    text-align: center
+
+    margin-top: 10rem
+
+    border-radius: 8px
+
+    color: white
+    background-color: colors.$button-color
+
+.warren-investment h2
+    font-size: 40px
+
+.warren-investment button
+    height: 50px
+    width: 200px
+
+    font-size: 15px
+    font-weight: bold
+
+    border: 2px solid colors.$text-color
+    border-radius: 5px
+
+    background-color: colors.$text-color
+
+    color: white
+
+    cursor: pointer
+
+.warren-investment button:hover
+    background-color: white
+    color: colors.$text-color

@@ -1,0 +1,47 @@
+@use '../variables/_colors'
+@use '../mixins/_mixins'
+
+nav
+    @include mixins.row-space-around()
+
+    position: sticky
+    top: 0
+
+    align-items: center
+
+    height: 55px
+    width: 100%
+
+    background-color: colors.$button-color
+
+nav a img
+    height: 30px
+
+    cursor: pointer
+
+nav ul
+    display: flex
+    flex-direction: row
+
+    gap: 3.4rem
+
+nav ul li
+    list-style: none
+
+nav ul li a
+    text-decoration: none
+
+    color: white
+
+nav button
+    display: none
+
+    background-color: transparent
+    border: none
+    cursor: pointer
+
+    opacity: 0
+    visibility: hidden
+
+nav button svg path
+    stroke: white
